@@ -1,0 +1,406 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "blusalt-assessment;client-side-delay",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Client Side Delay",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the landing page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on the Client Side Delay",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 747000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I confirm I am on the Client Side Delay page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click on the Button Triggering Client Side Logic",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the success message",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14966000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "blusalt-assessment;dynamic-table---validate-chrome-cpu-usage-matches-summary",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Dynamic Table - Validate Chrome CPU usage matches summary",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the landing page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I navigate to the dynamic table page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I confirm I am on the Dynamic Table Page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I get the Chrome CPU value from the table and the summary",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Both CPU values should match",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "blusalt-assessment;sample-app-login----login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Sample App Login -  Login with valid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the landing page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 605000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I visit the sample app page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I enter username \"Kome\" and password \"pwd\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click the login button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 145000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should see the login success message",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "blusalt-assessment;shadow-dom---generate-a-guid-inside-shadow-dom",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Shadow DOM - Generate a GUID inside Shadow DOM",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the landing page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I click on the Shadow DOM link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I click on the Generate Button and Copy to Clipboard",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I compare the value of clipboard to the value in the input field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "blusalt-assessment;checking-the-alert",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Checking the Alert",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the landing page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I click on the Alert Link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 665000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I should be navigated to the Alert Page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I clicked on the Alert button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I click on the OK on the alert prompt",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I clicked the confirm Button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I click on the OK on the Confirm alert prompt",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "blusalt-assessment",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Blusalt Assessment",
+    "tags": [],
+    "uri": "cypress\\e2e\\tests.feature"
+  }
+]

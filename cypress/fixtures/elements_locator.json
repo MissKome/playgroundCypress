@@ -1,0 +1,4 @@
+{
+  "clientSideDelay": "[href='/clientdelay']",
+  "button": "#ajaxButton"
+}

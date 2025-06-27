@@ -39,3 +39,13 @@ Feature: Blusalt Assessment
     Then I clicked the confirm Button
     Then I click on the OK on the Confirm alert prompt
 
+  Scenario: File Upload using the Browse file button
+        When I click on the file upload link
+        Then I upload the file clicking the Browse file button
+        Then I Verify the file is uploaded successfully
+    
+  Scenario: File Upload using the Drag and Drop
+        When I click on the file upload link
+        Then I drag and drop the file
+        Then I Verify the file is uploaded successfully using drag and drop
+    
